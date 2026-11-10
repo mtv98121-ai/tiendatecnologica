@@ -1,0 +1,171 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 20px;
+}
+
+main {
+    background-color: white;
+    width: 450px;
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #cccccc;
+}
+
+h2 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font: inherit;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* BOTONES */
+
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    background-color: #9439ab;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #d8ecb3;
+    color: #2017db;
+}
+
+/* CAMPOS ACTIVOS */
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #9439ab;
+    outline-offset: 2px;
+}
+
+/* MENSAJE */
+
+#respuesta.exito {
+    color: #146534;
+    font-weight: bold;
+}
+
+.nota {
+    font-size: 12px;
+    color: #666666;
+    line-height: 1.5;
+}
+
+
+/* NUEVO DISEÑO PASTEL - CONTACTO */
+
+body {
+    background: linear-gradient(135deg, #fff7fb, #f2edff, #e9f7ff);
+    color: #514767;
+}
+
+/* FORMULARIO */
+
+main {
+    background-color: #ffffff;
+    border: 1px solid #eadcf5;
+    border-radius: 22px;
+    box-shadow: 0 8px 25px rgba(130, 100, 150, 0.12);
+}
+
+/* TITULO */
+
+h2 {
+    color: #7556a0;
+    text-align: center;
+    font-size: 27px;
+}
+
+/* ETIQUETAS */
+
+label {
+    color: #7556a0;
+    font-weight: bold;
+}
+
+/* CAMPOS */
+
+input,
+select,
+textarea {
+    background-color: #fbf7ff;
+    border: 1px solid #ddcaee;
+    border-radius: 10px;
+    color: #514767;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #b39ad6;
+    outline-offset: 2px;
+    background-color: white;
+}
+
+/* BOTONES */
+
+button {
+    background-color: #b39ad6;
+    color: white;
+    border-radius: 20px;
+    padding: 12px 22px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #d18fbb;
+    color: white;
+}
+
+/* MENSAJE DE CONFIRMACION */
+
+#respuesta.exito {
+    color: #39775b;
+    font-weight: bold;
+}
+
+#respuesta.error {
+    color: #a54c70;
+    font-weight: bold;
+}
+

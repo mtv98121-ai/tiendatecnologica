@@ -1,0 +1,114 @@
+
+/* NUEVO DISEÑO PASTEL - PRODUCTOS Y OFERTAS */
+
+body {
+    background: linear-gradient(135deg, #fff7fb, #f2edff, #e9f7ff);
+    color: #514767;
+}
+
+/* TITULO */
+
+h2 {
+    color: #7556a0;
+}
+
+.descripcion {
+    color: #826d91;
+}
+
+/* TARJETAS */
+
+.producto {
+    background-color: #ffffff;
+    border: 1px solid #e9d9f3;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(130, 100, 150, 0.12);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.producto:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(130, 100, 150, 0.20);
+}
+
+/* IMAGENES UNIFORMES */
+
+.producto img {
+    width: 100%;
+    height: 210px;
+    object-fit: contain;
+    object-position: center;
+    box-sizing: border-box;
+    background-color: #f5efff;
+    border-radius: 14px;
+    padding: 10px;
+}
+
+/* NOMBRE DEL PRODUCTO */
+
+.producto h3 {
+    color: #7556a0;
+}
+
+/* PRECIO */
+
+.precio,
+.producto .precio {
+    color: #ac6c9c;
+    font-weight: bold;
+}
+
+/* DESCUENTO */
+
+.descuento {
+    display: inline-block;
+    background-color: #f8c8d8;
+    color: #85436d;
+    border-radius: 20px;
+    padding: 7px 14px;
+    font-weight: bold;
+}
+
+del {
+    color: #93839c;
+}
+
+/* BOTONES */
+
+button {
+    background-color: #b39ad6;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 12px 22px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d18fbb;
+    color: white;
+}
+
+/* INFORMACION DE DETALLES */
+
+.detalle {
+    background-color: #f4edff;
+    border: 1px solid #e6d9f5;
+    border-radius: 12px;
+    padding: 12px;
+    color: #574477;
+}
+
+/* ETIQUETA OFERTA */
+
+.oferta-card::before {
+    background-color: #fff1d9;
+    color: #7556a0;
+}
+
+/* CELULARES */
+
+@media (max-width: 550px) {
+    .producto img {
+        height: 200px;
+    }
+}

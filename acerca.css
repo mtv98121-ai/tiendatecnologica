@@ -1,0 +1,291 @@
+
+/* CONFIGURACION GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: linear-gradient(
+        135deg,
+        #fff7fb,
+        #f2edff,
+        #e9f7ff
+    );
+    color: #514767;
+}
+
+/* ENCABEZADO */
+
+.encabezado {
+    background: linear-gradient(
+        120deg,
+        #d9c5f2,
+        #f8d8e5
+    );
+
+    padding: 25px 8%;
+    text-align: center;
+    color: #574477;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #7556a0;
+}
+
+.encabezado p {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+.principal {
+    max-width: 1150px;
+    margin: auto;
+    padding: 35px 20px;
+}
+
+/* BIENVENIDA */
+
+.bienvenida {
+    text-align: center;
+    padding: 30px 15px 40px;
+}
+
+.etiqueta {
+    display: inline-block;
+    background-color: #f9dce9;
+    color: #865e90;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bienvenida h1 {
+    font-size: 36px;
+    color: #7556a0;
+    margin: 22px 0 15px;
+}
+
+.bienvenida p {
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+/* CONTENIDO */
+
+.contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    align-items: stretch;
+}
+
+/* ILUSTRACION */
+
+.ilustracion {
+    background: linear-gradient(
+        145deg,
+        #e3f3ff,
+        #f3e8ff
+    );
+
+    border-radius: 22px;
+    padding: 35px 25px;
+    text-align: center;
+    border: 1px solid #e3d9ef;
+}
+
+.icono {
+    font-size: 95px;
+    margin-bottom: 15px;
+}
+
+.ilustracion h2 {
+    color: #7556a0;
+    font-size: 25px;
+}
+
+.ilustracion p {
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+/* ETIQUETAS */
+
+.detalles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.detalles span {
+    background-color: white;
+    color: #795c9c;
+    padding: 10px 13px;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 0 3px 8px rgba(120, 90, 150, 0.1);
+}
+
+/* QUIENES SOMOS */
+
+.acerca {
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 22px;
+    border: 1px solid #f0e3f3;
+    box-shadow: 0 6px 20px rgba(130, 100, 150, 0.1);
+}
+
+.acerca h2 {
+    color: #ac6c9c;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.acerca p {
+    font-size: 15px;
+    line-height: 1.9;
+    text-align: justify;
+}
+
+/* MISION Y VISION */
+
+.valores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.tarjeta {
+    border-radius: 22px;
+    padding: 35px 30px;
+    text-align: center;
+    border: 1px solid rgba(130, 100, 150, 0.1);
+    box-shadow: 0 5px 16px rgba(130, 100, 150, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(130, 100, 150, 0.15);
+}
+
+.mision {
+    background-color: #fce4ed;
+}
+
+.vision {
+    background-color: #e6e1fa;
+}
+
+.emoji {
+    font-size: 45px;
+}
+
+.tarjeta h2 {
+    color: #7556a0;
+    font-size: 24px;
+}
+
+.tarjeta p {
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+/* MENSAJE FINAL */
+
+.mensaje-final {
+    margin-top: 35px;
+    padding: 30px;
+    border-radius: 22px;
+    background: linear-gradient(
+        120deg,
+        #fff0d9,
+        #f9e0eb
+    );
+    text-align: center;
+}
+
+.mensaje-final h2 {
+    color: #9b6b99;
+}
+
+.mensaje-final p {
+    line-height: 1.7;
+}
+
+/* PIE DE PAGINA */
+
+.pie {
+    background-color: #dcd0f1;
+    color: #574477;
+    padding: 35px 8%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.pie h3 {
+    color: #7556a0;
+    font-size: 17px;
+}
+
+.pie p {
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #bca9d5;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+/* ADAPTACION PARA CELULARES */
+
+@media (max-width: 768px) {
+
+    .bienvenida h1 {
+        font-size: 28px;
+    }
+
+    .contenido {
+        grid-template-columns: 1fr;
+    }
+
+    .valores {
+        grid-template-columns: 1fr;
+    }
+
+    .ilustracion,
+    .acerca,
+    .tarjeta {
+        padding: 25px 20px;
+    }
+
+    .icono {
+        font-size: 75px;
+    }
+
+    .pie {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

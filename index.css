@@ -1,0 +1,121 @@
+
+/* DISEÑO GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #fff7fb, #f2edff, #e9f7ff);
+    color: #514767;
+    margin: 0;
+    padding: 0;
+}
+
+/* ENCABEZADO */
+
+header {
+    background: linear-gradient(120deg, #d9c5f2, #f8d8e5);
+    color: #7556a0;
+    padding: 25px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #7556a0;
+    margin: 10px 0 25px;
+}
+
+/* MENU DE NAVEGACION */
+
+nav {
+    background-color: #fff1d9;
+    padding: 15px;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav a {
+    color: #7556a0;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    background-color: #fadde8;
+    color: #865e90;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+/* VENTANA DE LAS PAGINAS */
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 850px;
+    border: none;
+    border-radius: 15px;
+    background-color: #fff7fb;
+    box-shadow: 0 5px 18px rgba(130, 100, 150, 0.12);
+}
+
+/* PIE DE PAGINA */
+
+footer {
+    background-color: #dcd0f1;
+    color: #574477;
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+footer p {
+    margin: 8px;
+    font-size: 14px;
+}
+
+/* ADAPTACION PARA CELULARES */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav {
+        gap: 8px;
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    iframe {
+        height: 750px;
+    }
+}
